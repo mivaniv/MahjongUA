@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Memory Game</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        canvas{
+            height: 80%; 
+            width: 80%; 
+           display: block;
+        }
+        @font-face {
+            font-family: 'HVD_Comic_Serif_Pro' ;
+            src: url(./assets/fonts/HVD_Comic_Serif_Pro.otf);
+        }
+        .fontPreload {
+            font-family: 'HVD_Comic_Serif_Pro';
+            position: absolutle;
+            left: -100px;   
+        }
+    </style>
+</head>
+<body> 
+    <div class="fontPreload"></div>
+    <script src="assets/scripts/phaser.js"></script> 
+    <script src="assets/scripts/Card.js"></script>
+    <script src="assets/scripts/GameScene.js"></script>
+    <script src="assets/scripts/main.js"></script>
+
+</body>
+</html>
